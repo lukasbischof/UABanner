@@ -12,11 +12,11 @@ or
 `UABanner(Object options);`
 
 Possible values for the options object:
-* title: String, required
-* text: String
-* width: Int, default: 800, min: 200
-* timeout: Int, default: (buttons specified? yes => No timeout, no => 4000ms); In Miliseconds
-* buttons: Array of UAButton objects
+* `title`: String, required
+* `text`: String
+* `width`: Int, default: 800, min: 200
+* `timeout`: Int, default: (buttons specified? yes => No timeout, no => 4000ms); In Miliseconds
+* `buttons`: Array of UAButton objects
 
 
 #### UAButton
