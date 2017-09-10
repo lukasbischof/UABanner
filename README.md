@@ -1,5 +1,5 @@
 # UABanner
-Small JS Library for displaying a banner
+Small JS Library for displaying a notification-banner.
 
 ## Usage
 #### UABanner
