@@ -1,8 +1,22 @@
 # UABanner
+
 Small JS Library for displaying a notification-banner.
 
 ## Usage
+
+#### Installation
+
+Include
+
+```css
+<link rel="stylesheet" href="dist/UABanner.min.css" />
+<script type="text/javascript" src="dist/UABanner.min.js"></script>
+```
+
+in your header
+
 #### UABanner
+
 Constructor:
 
 `UABanner(String title, String text, Int timeout, Array buttons, Int width);`
@@ -20,6 +34,7 @@ Possible values for the options object:
 
 
 #### UAButton
+
 Constructor:
 
 `UAButton(String text, String style, Function pressedEventHandler);`
@@ -34,6 +49,7 @@ Possible values for the options object:
 * pressedEventHandler: Function
 
 ### Sample usage
+
 ```javascript
 var banner = new UABanner({
 	title: "Title",
@@ -44,14 +60,20 @@ var banner = new UABanner({
 			text: "Ok",
 			style: UAButton.NORMAL,
 			pressedEventHandler: function(e) {
-				// …
+				// ...
 			}
 		}),
-    // …
+    // ...
 	]
 });
 
 banner.show();
 ```
 
-For a demo open banner.html in your browser
+For a demo open demo/index.html in your browser
+
+## Development
+
+To test the current code, just include the UABanner.js directly in development environment.
+
+To make a release version, run `yarn run build` to generate a minified version in the dist folder.
