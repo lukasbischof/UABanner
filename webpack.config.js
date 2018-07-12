@@ -4,7 +4,7 @@ const ExtractTextPlugin = require("extract-text-webpack-plugin");
 module.exports = {
   entry: ['./src/UABanner.js', './src/UABanner.css'],
   output: {
-    filename: 'UABanner.js',
+    filename: 'UABanner.min.js',
     path: path.resolve(__dirname, 'dist')
   },
   module: {
@@ -13,12 +13,10 @@ module.exports = {
         test: /\.css$/,
         use: ExtractTextPlugin.extract({
           fallback: 'style-loader',
-          use: [
-            { loader: 'css-loader', options: { minimize: true } }
-          ]
+          use: ['css-loader', 'postcss-loader']
         })
       }
     ]
   },
-  plugins: [new ExtractTextPlugin("UABanner.css")]
+  plugins: [new ExtractTextPlugin("UABanner.min.css")]
 };
