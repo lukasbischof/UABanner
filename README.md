@@ -44,9 +44,9 @@ or
 `UAButton(Object options);`
 
 Possible values for the options object:
-* text: String, required
-* style: String, default: UAButton.NORMAL
-* pressedEventHandler: Function
+* `text`: String, required
+* `style`: String, default: UAButton.NORMAL
+* `pressedEventHandler`: Function
 
 ### Sample usage
 
