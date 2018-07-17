@@ -52,19 +52,19 @@ Possible values for the options object:
 
 ```javascript
 var banner = new UABanner({
-	title: "Title",
-	text : "Text",
-	width: 500,
-	buttons: [
-		new UAButton({
-			text: "Ok",
-			style: UAButton.NORMAL,
-			pressedEventHandler: function(e) {
-				// ...
-			}
-		}),
+  title: "Title",
+  text : "Text",
+  width: 500,
+  buttons: [
+    new UAButton({
+      text: "Ok",
+      style: UAButton.NORMAL,
+      pressedEventHandler: function(e) {
+        // ...
+      }
+    }),
     // ...
-	]
+  ]
 });
 
 banner.show();

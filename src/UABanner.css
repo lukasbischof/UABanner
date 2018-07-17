@@ -22,7 +22,7 @@
 	}
 }
 
-.UAKit_banner {
+.uakit-banner {
 	font-family: "Helvetica neue", sans-serif;
 	position: fixed;
 	top: -2px;
@@ -41,44 +41,44 @@
 	animation: 0.35s slide-in ease-out;
 }
 
-.UAKit_banner.dismiss {
+.uakit-banner.dismiss {
 	animation: 0.35s slide-out ease-in !important;
 }
 
-.UAKit_contentTable {
+.uakit-content-table {
 	width: 100%;
 	min-height: 70px;
 }
 
-.UAKit_banner .UAKit_content {
+.uakit-banner .uakit-content {
 	margin-left: 40px;
 	padding-top: 0;
 	margin-top: 0;
 }
 
-.UAKit_banner .UAKit_content .UAKit_title {
+.uakit-banner .uakit-content .uakit-title {
 	font-weight: bold;
 	margin-bottom: 0;
 	margin-top: 15px;
 }
 
-.UAKit_banner .UAKit_content .UAKit_title.standalone {
+.uakit-banner .uakit-content .uakit-title.standalone {
 	margin: 0;
 	font-size: 20px;
 }
 
-.UAKit_banner .UAKit_content .UAKit_text {
+.uakit-banner .uakit-content .uakit-text {
 	margin-top: 4px;
 }
 
-.UAKit_banner .UAKit_controls {
+.uakit-banner .uakit-controls {
 	flex: 1;
 	text-align: right;
 	padding-right: 10px;
 	float: right;
 }
 
-.UAKit_banner .UAKit_controls .UAKit_button {
+.uakit-banner .uakit-controls .uakit-button {
 	display: table;
 	height: 50px; 
 	float: right;
@@ -90,19 +90,19 @@
 	user-select: none !important;
 }
 
-.UAKit_banner .UAKit_controls .UAKit_button:hover > span {
+.uakit-banner .uakit-controls .uakit-button:hover > span {
 	color: #5454ff;
 }
 
-.UAKit_banner .UAKit_controls .UAKit_button.destructive > span {
+.uakit-banner .uakit-controls .uakit-button.destructive > span {
 	color: #ff6161;
 }
 
-.UAKit_banner .UAKit_controls .UAKit_button.destructive:hover > span {
+.uakit-banner .uakit-controls .uakit-button.destructive:hover > span {
 	color: #ff5252;
 }
 
-.UAKit_banner .UAKit_controls .UAKit_button > span {
+.uakit-banner .uakit-controls .uakit-button > span {
 	display: table-cell;
 	vertical-align: middle;
 	font-weight: bold;
@@ -111,7 +111,7 @@
 }
 
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
-	.UAKit_banner {
+	.uakit-banner {
 		background-color: rgba(255, 255, 255, 0.8);
 		backdrop-filter: blur(18px);
 	}
