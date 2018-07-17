@@ -6,7 +6,8 @@
   "author": "Lukas Bischof <polinderis@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js",
+    "webpack:watch": "webpack --config webpack.config.js --watch --progress"
   },
   "devDependencies": {
     "autoprefixer": "^8.6.5",

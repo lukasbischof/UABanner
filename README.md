@@ -74,6 +74,6 @@ For a demo open demo/index.html in your browser
 
 ## Development
 
-To test the current code, just include the UABanner.js directly in development environment.
+To test the current code, use the command `yarn run webpack:watch` to continuously rebuild the current version.
 
 To make a release version, run `yarn run build` to generate a minified version in the dist folder.
