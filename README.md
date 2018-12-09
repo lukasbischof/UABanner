@@ -70,7 +70,7 @@ var banner = new UABanner({
 banner.show();
 ```
 
-For a demo open demo/index.html in your browser
+For a demo open demo/index.html in your browser or check out this link: https://lukasbischof.github.io/UABanner/demo/index.html
 
 ## Development
 
